@@ -69,7 +69,7 @@ $(document).on('keypress', (e) => {
     if (!isInputting) {
         const { key } = e
         hashMap.forEach((item) => {
-            if (key === item.logo) {
+            if (key === item.logo.toLowerCase()) {
                 location.href = item.url
             }
         })

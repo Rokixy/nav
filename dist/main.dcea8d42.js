@@ -160,11 +160,11 @@ $(document).on('keypress', function (e) {
         var key = e.key;
 
         hashMap.forEach(function (item) {
-            if (key === item.logo) {
+            if (key === item.logo.toLowerCase()) {
                 location.href = item.url;
             }
         });
     }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.3a790b8c.map
+//# sourceMappingURL=main.dcea8d42.map
